@@ -1,4 +1,4 @@
-package com.kiva.server.mixins;
+package com.kiva.disablefluidupdates.server.mixins;
 
 import net.minecraft.src.game.block.BlockFluidFlowing;
 import net.minecraft.src.game.level.World;
