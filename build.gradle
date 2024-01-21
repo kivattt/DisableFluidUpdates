@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io/' }
+    }
+    dependencies {
+        classpath('com.github.Fox2Code.FoxLoader:dev:1.2.33')
+    }
+}
+
+apply plugin: 'foxloader.dev'
+
+version '1.0.0'
+
+foxloader {
+    // forceReload = true
+    modId = "disablefluidupdates"
+    modName = "DisableFluidUpdates"
+    modVersion = project.version
+    modDesc = "Disables water/lava updates"
+    modWebsite = "https://github.com/kivattt/disablefluidupdates"
+    serverMod = "com.kiva.disablefluidupdates.DisableFluidUpdatesServer"
+}
