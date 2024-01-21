@@ -7,7 +7,7 @@ import com.fox2code.foxloader.registry.RegisteredWorld;
 
 public class CommandReplaceReal extends CommandCompat {
     public CommandReplaceReal() {
-        super("/replacereal");
+        super("/replacereal", true);
     }
 
     @Override
